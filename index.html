@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Garishtha Physiotherapy Clinic, Miraj | Physiotherapy &amp; Rehabilitation</title>
+<meta name="description" content="Garishtha Physiotherapy Clinic in Shivaji Nagar, Miraj. Personalized physiotherapy for pain relief, mobility and rehabilitation. Rated 5.0 on Google. Enquire on WhatsApp.">
+<meta name="theme-color" content="#0e8a8f">
+<meta property="og:title" content="Garishtha Physiotherapy Clinic, Miraj">
+<meta property="og:description" content="Personalized physiotherapy care focused on pain relief, improved mobility and everyday function.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#12303b; --ink-soft:#4a6670; --teal:#0e8a8f; --teal-dark:#0a6a6e; --blue:#2f7fc1;
+  --green:#5fb98c; --mist:#eef7f8; --mist-2:#e3f1f3; --line:#d6e6e9; --white:#fff; --wa:#1fa855; --wa-dark:#168a45;
+  --radius:20px; --shadow:0 10px 30px rgba(18,48,59,.08); --shadow-lg:0 22px 50px rgba(18,48,59,.14);
+  --head:'Fraunces',Georgia,'Times New Roman',serif; --body:'Figtree',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:84px;-webkit-text-size-adjust:100%}
+body{margin:0;font-family:var(--body);color:var(--ink);background:var(--white);line-height:1.65;font-size:17px;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--head);line-height:1.15;margin:0 0 .5em;color:var(--ink);letter-spacing:-.01em}
+h1{font-size:clamp(2.3rem,5.6vw,4rem);font-weight:700}
+h2{font-size:clamp(1.8rem,3.6vw,2.7rem);font-weight:600}
+h3{font-size:1.25rem;font-weight:600}
+p{margin:0 0 1em}
+.wrap{width:min(1160px,100% - 2.5rem);margin-inline:auto}
+section{padding:clamp(3.5rem,8vw,6rem) 0}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:absolute;left:-999px;top:8px;background:var(--ink);color:#fff;padding:.6rem 1rem;border-radius:8px;z-index:200}
+.skip:focus{left:8px}
+:focus-visible{outline:3px solid var(--blue);outline-offset:3px;border-radius:6px}
+.ic{width:1.25em;height:1.25em;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.ic.fill{fill:currentColor;stroke:none}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.55rem;padding:.9rem 1.5rem;border-radius:999px;font:600 1rem var(--body);text-decoration:none;border:2px solid transparent;cursor:pointer;transition:transform .2s,box-shadow .2s,background .2s,color .2s;min-height:48px}
+.btn:hover{transform:translateY(-2px)}
+.btn-wa{background:var(--wa);color:#fff;box-shadow:0 8px 20px rgba(31,168,85,.3)}
+.btn-wa:hover{background:var(--wa-dark)}
+.btn-teal{background:var(--teal);color:#fff;box-shadow:0 8px 20px rgba(14,138,143,.28)}
+.btn-teal:hover{background:var(--teal-dark)}
+.btn-line{background:#fff;color:var(--teal-dark);border-color:var(--teal)}
+.btn-line:hover{background:var(--mist)}
+.btn-sm{padding:.6rem 1.1rem;min-height:42px;font-size:.95rem}
+
+/* header */
+header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:72px}
+.brand{display:flex;align-items:center;gap:.7rem;text-decoration:none}
+.brand-mark{width:42px;height:42px;border-radius:13px;background:linear-gradient(135deg,var(--teal),var(--blue));display:grid;place-items:center;color:#fff;flex:none}
+.brand-text{font-family:var(--head);font-weight:700;font-size:1.12rem;line-height:1.1}
+.brand-text small{display:block;font:500 .74rem var(--body);color:var(--ink-soft);letter-spacing:.01em}
+.menu{display:flex;align-items:center;gap:1.6rem;list-style:none;margin:0;padding:0}
+.menu a{text-decoration:none;font-weight:500;color:var(--ink-soft);padding:.4rem 0;border-bottom:2px solid transparent;transition:color .2s,border-color .2s}
+.menu a:hover,.menu a.active{color:var(--teal-dark);border-color:var(--teal)}
+.menu .btn{color:#fff;border-color:transparent}
+.burger{display:none;background:none;border:0;padding:.6rem;cursor:pointer;color:var(--ink);border-radius:10px}
+.burger .ic{width:28px;height:28px}
+.burger .x{display:none}
+.burger[aria-expanded="true"] .x{display:block}
+.burger[aria-expanded="true"] .m{display:none}
+
+/* hero */
+.hero{padding:clamp(2.5rem,6vw,5rem) 0 clamp(3rem,7vw,5.5rem);background:linear-gradient(180deg,var(--mist) 0%,#fff 100%)}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(2rem,5vw,4rem);align-items:center}
+.hero p.lead{font-size:1.15rem;color:var(--ink-soft);max-width:34rem}
+.hero-cta{display:flex;flex-wrap:wrap;gap:.8rem;margin:1.8rem 0}
+.rating-pill{display:inline-flex;align-items:center;gap:.7rem;background:#fff;border:1px solid var(--line);border-radius:999px;padding:.5rem 1.1rem .5rem .6rem;box-shadow:var(--shadow);font-weight:600}
+.rating-pill .g{width:34px;height:34px;border-radius:50%;background:var(--mist-2);display:grid;place-items:center;color:var(--teal-dark)}
+.stars{display:inline-flex;gap:2px;color:#f4b400}
+.stars .ic{width:16px;height:16px}
+.hero-media{position:relative}
+.photo{position:relative;overflow:hidden;border-radius:var(--radius);background:linear-gradient(135deg,var(--mist-2),#cfe6f3);box-shadow:var(--shadow-lg)}
+.photo img{width:100%;height:100%;object-fit:cover}
+.hero-media .photo{aspect-ratio:4/4.6;border-radius:34px 34px 120px 34px}
+.photo.fallback{display:grid;place-items:center;color:var(--teal)}
+.photo.fallback img{display:none}
+.photo.fallback::after{content:"";width:34%;aspect-ratio:1;background:currentColor;opacity:.35;border-radius:50%}
+.float-card{position:absolute;left:-1.2rem;bottom:2.2rem;background:#fff;border-radius:18px;padding:1rem 1.2rem;box-shadow:var(--shadow-lg);display:flex;gap:.8rem;align-items:center;max-width:15rem}
+.float-card strong{font-family:var(--head);font-size:1.7rem;line-height:1}
+.float-card span{font-size:.88rem;color:var(--ink-soft);line-height:1.3}
+.hero-badge{position:absolute;right:-.6rem;top:1.5rem;background:var(--teal);color:#fff;border-radius:16px;padding:.7rem 1rem;font-weight:600;font-size:.92rem;box-shadow:var(--shadow);display:flex;gap:.5rem;align-items:center}
+
+/* trust */
+.trust{padding:0;margin-top:-1.5rem;position:relative;z-index:2}
+.trust-grid{display:grid;grid-template-columns:repeat(4,1fr);background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+.trust-item{padding:1.5rem 1.2rem;display:flex;gap:.9rem;align-items:center}
+.trust-item+.trust-item{border-left:1px solid var(--line)}
+.trust-item .ico{width:46px;height:46px;border-radius:14px;background:var(--mist);display:grid;place-items:center;color:var(--teal-dark);flex:none}
+.trust-item b{display:block;font-family:var(--head);font-size:1.15rem;line-height:1.2}
+.trust-item small{color:var(--ink-soft);font-size:.88rem;line-height:1.3;display:block}
+
+/* about */
+.about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(2rem,5vw,4.5rem);align-items:center}
+.about-media{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.about-media .photo{aspect-ratio:3/4;box-shadow:var(--shadow)}
+.about-media .photo:nth-child(2){margin-top:2.5rem}
+.about p{color:var(--ink-soft)}
+.checks{list-style:none;padding:0;margin:1.2rem 0 1.8rem;display:grid;gap:.7rem}
+.checks li{display:flex;gap:.7rem;align-items:flex-start}
+.checks .ic{color:var(--teal);margin-top:.25rem}
+
+/* services */
+.services{background:var(--mist)}
+.sec-head{max-width:40rem;margin-bottom:2.5rem}
+.sec-head p{color:var(--ink-soft)}
+.sec-head.center{margin-inline:auto;text-align:center}
+.svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4rem}
+.svc{background:#fff;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column;transition:transform .25s,box-shadow .25s;border:1px solid transparent}
+.svc:hover{transform:translateY(-5px);box-shadow:var(--shadow-lg);border-color:var(--line)}
+.svc .photo{aspect-ratio:16/10;border-radius:0;box-shadow:none}
+.svc-body{padding:1.4rem 1.5rem 1.6rem;display:flex;flex-direction:column;flex:1}
+.svc-body .ico{width:46px;height:46px;border-radius:14px;display:grid;place-items:center;color:#fff;margin:-2.9rem 0 .9rem;position:relative;box-shadow:0 8px 18px rgba(14,138,143,.3);background:linear-gradient(135deg,var(--teal),var(--blue))}
+.svc:nth-child(3n+2) .ico{background:linear-gradient(135deg,var(--blue),#5a9fd8)}
+.svc:nth-child(3n) .ico{background:linear-gradient(135deg,var(--green),var(--teal))}
+.svc p{color:var(--ink-soft);font-size:.98rem;margin-bottom:1rem}
+.svc a.more{margin-top:auto;font-weight:600;color:var(--teal-dark);text-decoration:none;display:inline-flex;gap:.4rem;align-items:center}
+.svc a.more:hover{text-decoration:underline}
+.svc.wide{grid-column:span 3;flex-direction:row;align-items:stretch}
+.svc.wide .photo{aspect-ratio:auto;width:36%;min-height:220px}
+.svc.wide .svc-body{justify-content:center;padding:2rem}
+.svc.wide .ico{margin-top:0}
+.note{margin-top:2rem;background:#fff;border:1px dashed var(--teal);border-radius:14px;padding:1rem 1.3rem;display:flex;gap:.8rem;align-items:flex-start;color:var(--ink-soft);font-size:.96rem}
+.note .ic{color:var(--teal);margin-top:.2rem}
+
+/* why */
+.why-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,5vw,4rem);align-items:center}
+.why-list{display:grid;gap:1rem}
+.why-item{display:flex;gap:1rem;padding:1.2rem 1.3rem;border:1px solid var(--line);border-radius:16px;background:#fff;transition:border-color .2s,transform .2s}
+.why-item:hover{border-color:var(--teal);transform:translateX(4px)}
+.why-item .ico{width:44px;height:44px;border-radius:12px;background:var(--mist);display:grid;place-items:center;color:var(--teal-dark);flex:none}
+.why-item h3{font-size:1.08rem;margin:0 0 .2rem;font-family:var(--body);font-weight:700}
+.why-item p{margin:0;color:var(--ink-soft);font-size:.96rem}
+.why-media .photo{aspect-ratio:4/5;border-radius:120px 34px 34px 34px}
+
+/* reviews */
+.reviews{background:linear-gradient(135deg,var(--teal-dark),#0f5f8a);color:#fff}
+.reviews h2{color:#fff}
+.rev-box{display:grid;grid-template-columns:auto 1fr;gap:clamp(1.5rem,5vw,4rem);align-items:center}
+.rev-score{text-align:center;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);border-radius:28px;padding:2rem 2.6rem}
+.rev-score strong{display:block;font-family:var(--head);font-size:4.6rem;line-height:1}
+.rev-score .stars{justify-content:center;margin:.6rem 0 .3rem}
+.rev-score .stars .ic{width:22px;height:22px}
+.rev-txt p{color:#d7edf0;max-width:36rem}
+.rev-txt .btn-line{border-color:#fff;background:transparent;color:#fff}
+.rev-txt .btn-line:hover{background:#fff;color:var(--teal-dark)}
+
+/* appointment */
+.appt-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(2rem,5vw,4rem);align-items:start}
+.appt-info p{color:var(--ink-soft)}
+.steps{list-style:none;padding:0;margin:1.5rem 0;display:grid;gap:1rem;counter-reset:s}
+.steps li{display:flex;gap:1rem;counter-increment:s}
+.steps li::before{content:counter(s);width:34px;height:34px;border-radius:50%;background:var(--teal);color:#fff;display:grid;place-items:center;font-weight:700;flex:none}
+.form-card{background:#fff;border:1px solid var(--line);border-radius:26px;padding:clamp(1.4rem,3vw,2.2rem);box-shadow:var(--shadow-lg)}
+.field{margin-bottom:1.1rem}
+.field label{display:block;font-weight:600;margin-bottom:.35rem;font-size:.95rem}
+.field label span{color:#c0392b}
+.field input,.field select,.field textarea{width:100%;font:inherit;color:var(--ink);padding:.85rem 1rem;border:1.5px solid var(--line);border-radius:12px;background:#fbfdfd;transition:border-color .2s,box-shadow .2s;min-height:48px}
+.field textarea{min-height:110px;resize:vertical}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--teal);box-shadow:0 0 0 4px rgba(14,138,143,.15)}
+.field.invalid input,.field.invalid select{border-color:#c0392b}
+.err{display:none;color:#c0392b;font-size:.88rem;margin-top:.3rem}
+.field.invalid .err{display:block}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.form-card .btn{width:100%}
+.disclaimer{font-size:.88rem;color:var(--ink-soft);margin:1rem 0 0;display:flex;gap:.5rem}
+.disclaimer .ic{color:var(--teal);margin-top:.2rem}
+.sent{display:none;margin-top:1rem;padding:1rem 1.2rem;background:var(--mist);border-left:4px solid var(--green);border-radius:10px;font-size:.95rem}
+
+/* location */
+.loc{background:var(--mist)}
+.loc-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(1.5rem,4vw,3rem);align-items:stretch}
+.loc-card{background:#fff;border-radius:var(--radius);padding:clamp(1.5rem,3vw,2.2rem);box-shadow:var(--shadow)}
+.contact-list{list-style:none;margin:1.3rem 0 1.6rem;padding:0;display:grid;gap:1.1rem}
+.contact-list li{display:flex;gap:.9rem}
+.contact-list .ico{width:44px;height:44px;border-radius:12px;background:var(--mist);color:var(--teal-dark);display:grid;place-items:center;flex:none}
+.contact-list b{display:block;font-size:.9rem;color:var(--ink-soft);font-weight:600}
+.contact-list a{text-decoration:none;font-weight:600}
+.contact-list a:hover{text-decoration:underline}
+.btn-row{display:flex;flex-wrap:wrap;gap:.7rem}
+.map{border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);min-height:380px;background:var(--mist-2)}
+.map iframe{width:100%;height:100%;min-height:380px;border:0;display:block}
+
+/* footer */
+footer{background:#0d2a33;color:#c3d8dc;padding:3.5rem 0 1.5rem}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:2rem}
+footer h3{color:#fff;font-family:var(--body);font-size:1rem;font-weight:700;margin-bottom:1rem}
+footer ul{list-style:none;margin:0;padding:0;display:grid;gap:.55rem}
+footer a{text-decoration:none;color:#c3d8dc}
+footer a:hover{color:#fff;text-decoration:underline}
+footer .brand-text{color:#fff}
+footer .brand-text small{color:#9fbcc2}
+footer p{font-size:.95rem}
+.foot-bottom{border-top:1px solid rgba(255,255,255,.12);margin-top:2.5rem;padding-top:1.3rem;display:flex;flex-wrap:wrap;justify-content:space-between;gap:.6rem;font-size:.88rem;color:#9fbcc2}
+.foot-bottom a{color:#fff;font-weight:600}
+
+/* floating */
+.fab{position:fixed;right:1.1rem;bottom:1.1rem;z-index:90;width:60px;height:60px;border-radius:50%;background:var(--wa);color:#fff;display:grid;place-items:center;box-shadow:0 10px 26px rgba(31,168,85,.45);text-decoration:none;transition:transform .2s}
+.fab:hover{transform:scale(1.07)}
+.fab .ic{width:32px;height:32px}
+.fab::after{content:"";position:absolute;inset:0;border-radius:50%;border:2px solid var(--wa);animation:ring 2.4s ease-out infinite}
+@keyframes ring{0%{transform:scale(1);opacity:.7}100%{transform:scale(1.6);opacity:0}}
+.mbar{display:none}
+
+/* hero load-in: the one orchestrated moment */
+.rise{opacity:0;transform:translateY(18px);animation:rise .7s cubic-bezier(.2,.7,.2,1) forwards}
+.rise:nth-child(2){animation-delay:.1s}.rise:nth-child(3){animation-delay:.2s}.rise:nth-child(4){animation-delay:.3s}.rise:nth-child(5){animation-delay:.4s}
+@keyframes rise{to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .rise{opacity:1;transform:none}
+}
+
+/* responsive */
+@media (max-width:980px){
+  .hero-grid,.about-grid,.why-grid,.appt-grid,.loc-grid{grid-template-columns:1fr}
+  .hero-media{max-width:520px;margin-inline:auto;width:100%}
+  .trust-grid{grid-template-columns:1fr 1fr}
+  .trust-item:nth-child(3){border-left:0}
+  .trust-item:nth-child(n+3){border-top:1px solid var(--line)}
+  .svc-grid{grid-template-columns:1fr 1fr}
+  .svc.wide{grid-column:span 2}
+  .foot-grid{grid-template-columns:1fr 1fr}
+  .why-media{order:-1;max-width:420px}
+  .rev-box{grid-template-columns:1fr;text-align:center}
+  .rev-txt p{margin-inline:auto}
+}
+@media (max-width:820px){
+  .burger{display:block}
+  .menu{position:absolute;left:0;right:0;top:100%;background:#fff;flex-direction:column;align-items:stretch;gap:0;padding:.5rem 1.25rem 1.2rem;border-bottom:1px solid var(--line);box-shadow:var(--shadow);display:none}
+  .menu.open{display:flex}
+  .menu li a:not(.btn){display:block;padding:.9rem 0;border-bottom:1px solid var(--line)}
+  .menu li:last-child{margin-top:1rem}
+  .menu .btn{width:100%}
+}
+@media (max-width:640px){
+  body{font-size:16px;padding-bottom:70px}
+  .float-card{left:.6rem;bottom:1.2rem}
+  .hero-badge{right:.6rem}
+  .svc-grid{grid-template-columns:1fr}
+  .svc.wide{grid-column:auto;flex-direction:column}
+  .svc.wide .photo{width:100%;aspect-ratio:16/10;min-height:0}
+  .svc.wide .ico{margin-top:-2.9rem}
+  .trust-item{padding:1.1rem .9rem;flex-direction:column;text-align:center;align-items:center}
+  .two{grid-template-columns:1fr}
+  .about-media .photo:nth-child(2){margin-top:1.2rem}
+  .foot-grid{grid-template-columns:1fr}
+  .rev-score{padding:1.6rem 2rem}
+  .fab{bottom:5.4rem}
+  .mbar{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;position:fixed;left:0;right:0;bottom:0;z-index:95;background:#fff;padding:.6rem .8rem calc(.6rem + env(safe-area-inset-bottom,0px));border-top:1px solid var(--line);box-shadow:0 -8px 24px rgba(18,48,59,.1)}
+  .mbar .btn{padding:.7rem .5rem;min-height:46px}
+  .brand-text small{display:none}
+}
+</style>
+</head>
+<body>
+
+<!-- Icon sprite -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M12.04 2a9.9 9.9 0 0 0-8.5 14.9L2 22l5.25-1.38A9.93 9.93 0 1 0 12.04 2Zm0 18.1c-1.5 0-2.97-.4-4.25-1.16l-.3-.18-3.12.82.83-3.04-.2-.31A8.1 8.1 0 1 1 12.04 20.1Zm4.44-6.06c-.24-.12-1.44-.71-1.66-.79-.22-.08-.39-.12-.55.12-.16.24-.63.79-.77.95-.14.16-.28.18-.52.06-.24-.12-1.03-.38-1.96-1.2-.72-.64-1.2-1.43-1.35-1.67-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.55-1.32-.75-1.8-.2-.47-.4-.41-.55-.42h-.47c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.6 4.1 3.64.57.25 1.02.4 1.37.5.58.18 1.1.16 1.51.1.46-.07 1.44-.59 1.64-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.46-.28Z"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="m12 2.5 2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5-4.8-4.6 6.6-.9L12 2.5Z"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8Z"/></symbol>
+    <symbol id="i-activity" viewBox="0 0 24 24"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></symbol>
+    <symbol id="i-spine" viewBox="0 0 24 24"><rect x="8" y="2.5" width="8" height="4" rx="1.5"/><rect x="7.5" y="8" width="9" height="4" rx="1.5"/><rect x="8" y="13.5" width="8" height="4" rx="1.5"/><path d="M10 19.5h4v2h-4z"/></symbol>
+    <symbol id="i-shoulder" viewBox="0 0 24 24"><circle cx="12" cy="5" r="2.6"/><path d="M4 21v-4a8 8 0 0 1 16 0v4"/><path d="M8 13l-2.5 3M16 13l2.5 3"/></symbol>
+    <symbol id="i-knee" viewBox="0 0 24 24"><path d="M9 2v8a3 3 0 0 0 3 3 3 3 0 0 1 3 3v6"/><circle cx="12" cy="13" r="2.2"/><path d="M9 22h6"/></symbol>
+    <symbol id="i-move" viewBox="0 0 24 24"><path d="M5 9 2 12l3 3M9 5l3-3 3 3M15 19l-3 3-3-3M19 9l3 3-3 3M2 12h20M12 2v20"/></symbol>
+    <symbol id="i-dumbbell" viewBox="0 0 24 24"><path d="M6.5 6.5v11M17.5 6.5v11M3 9v6M21 9v6M6.5 12h11"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2Z"/></symbol>
+    <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></symbol>
+    <symbol id="i-nav" viewBox="0 0 24 24"><path d="m3 11 19-9-9 19-2-8-8-2Z"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></symbol>
+  </defs>
+</svg>
+
+<a class="skip" href="#main">Skip to main content</a>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#home" aria-label="Garishtha Physiotherapy Clinic, home">
+      <span class="brand-mark"><svg class="ic" style="width:24px;height:24px"><use href="#i-activity"/></svg></span>
+      <span class="brand-text">Garishtha<small>Physiotherapy Clinic, Miraj</small></span>
+    </a>
+    <button class="burger" id="burger" aria-expanded="false" aria-controls="menu" aria-label="Toggle navigation menu">
+      <svg class="ic m"><use href="#i-menu"/></svg><svg class="ic x"><use href="#i-x"/></svg>
+    </button>
+    <nav aria-label="Main">
+      <ul class="menu" id="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#why">Why Choose Us</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a class="btn btn-wa btn-sm" href="#appointment" data-wa-open><svg class="ic fill"><use href="#i-wa"/></svg>WhatsApp Appointment</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- HERO -->
+<section class="hero" id="home" style="padding-bottom:clamp(4rem,8vw,6.5rem)">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="rise rating-pill"><span class="g"><svg class="ic"><use href="#i-star"/></svg></span>
+        <span>5.0/5 on Google <span style="color:var(--ink-soft);font-weight:500">· 82 reviews</span></span></p>
+      <h1 class="rise" style="margin-top:1.2rem">Move Better. Feel Better. Live Pain-Free.</h1>
+      <p class="rise lead">Personalized physiotherapy care focused on pain relief, improved mobility and helping you get back to the activities you love.</p>
+      <div class="rise hero-cta">
+        <a class="btn btn-wa" href="#appointment"><svg class="ic fill"><use href="#i-wa"/></svg>Book an Appointment</a>
+        <a class="btn btn-line" href="#services">Explore Our Services</a>
+      </div>
+      <p class="rise" style="color:var(--ink-soft);font-size:.95rem;margin:0">Shivaji Nagar, Miraj · <a href="tel:+918408060525" style="font-weight:600;color:var(--teal-dark)">+91 84080 60525</a></p>
+    </div>
+    <div class="hero-media">
+      <div class="photo rise">
+        <img src="https://images.unsplash.com/photo-1598257006458-087169a1f08d?auto=format&fit=crop&w=1000&q=75" alt="Physiotherapist guiding a patient through a treatment session" width="1000" height="1150" fetchpriority="high">
+      </div>
+      <div class="float-card">
+        <svg class="ic" style="width:34px;height:34px;color:var(--teal)"><use href="#i-heart"/></svg>
+        <div><strong>Patient-first</strong><br><span>Care shaped around your goals</span></div>
+      </div>
+      <div class="hero-badge"><svg class="ic"><use href="#i-check"/></svg>Physiotherapy &amp; rehab</div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST -->
+<section class="trust" aria-label="Clinic highlights">
+  <div class="wrap">
+    <div class="trust-grid">
+      <div class="trust-item"><span class="ico"><svg class="ic"><use href="#i-star"/></svg></span><div><b>5.0 Rating</b><small>Google rating</small></div></div>
+      <div class="trust-item"><span class="ico"><svg class="ic"><use href="#i-chat"/></svg></span><div><b>82 Reviews</b><small>Shared by patients</small></div></div>
+      <div class="trust-item"><span class="ico"><svg class="ic"><use href="#i-heart"/></svg></span><div><b>Patient-Focused</b><small>Care that listens first</small></div></div>
+      <div class="trust-item"><span class="ico"><svg class="ic"><use href="#i-activity"/></svg></span><div><b>Rehabilitation</b><small>Physiotherapy &amp; recovery</small></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="wrap about-grid">
+    <div class="about-media">
+      <div class="photo"><img loading="lazy" src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=600&q=75" alt="Physiotherapy consultation between therapist and patient" width="600" height="800"></div>
+      <div class="photo"><img loading="lazy" src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=600&q=75" alt="Hands-on therapy during a rehabilitation session" width="600" height="800"></div>
+    </div>
+    <div>
+      <h2>Your Journey Towards Better Movement Starts Here.</h2>
+      <p>Pain and stiffness can change the way you work, walk, sleep and play. Physiotherapy looks at how your body is moving, finds what is holding you back, and builds a plan to help you move more comfortably again.</p>
+      <p>At Garishtha Physiotherapy Clinic in Miraj, the focus is on understanding your problem first, then guiding you through treatment and exercises that fit your daily life. Recovery is personal, so every plan starts with a conversation about what you want to get back to.</p>
+      <ul class="checks">
+        <li><svg class="ic"><use href="#i-check"/></svg>Care planned around your condition and goals</li>
+        <li><svg class="ic"><use href="#i-check"/></svg>Support for pain relief, mobility and strength</li>
+        <li><svg class="ic"><use href="#i-check"/></svg>Simple enquiry through WhatsApp or phone</li>
+      </ul>
+      <a class="btn btn-teal" href="#appointment">Ask About an Appointment <svg class="ic"><use href="#i-arrow"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Physiotherapy services for everyday movement</h2>
+      <p>From a stiff neck to a recovering knee, here are the areas where physiotherapy can help.</p>
+    </div>
+    <div class="svc-grid">
+      <article class="svc">
+        <div class="photo"><img loading="lazy" src="https://images.unsplash.com/photo-1519824145371-296894a0daa9?auto=format&fit=crop&w=700&q=75" alt="Therapist applying pain relief treatment to a patient" width="700" height="440"></div>
+        <div class="svc-body"><span class="ico"><svg class="ic"><use href="#i-heart"/></svg></span>
+          <h3>Pain Management</h3><p>Hands-on treatment and guided exercise to ease pain and help you manage it day to day.</p>
+          <a class="more" href="#appointment" data-service="Pain Management">Enquire <svg class="ic"><use href="#i-arrow"/></svg></a></div>
+      </article>
+      <article class="svc">
+        <div class="photo"><img loading="lazy" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=700&q=75" alt="Back and neck pain physiotherapy" width="700" height="440"></div>
+        <div class="svc-body"><span class="ico"><svg class="ic"><use href="#i-spine"/></svg></span>
+          <h3>Back and Neck Pain Physiotherapy</h3><p>Relief for stiff, aching backs and necks, with posture and movement advice you can use at work and home.</p>
+          <a class="more" href="#appointment" data-service="Back and Neck Pain Physiotherapy">Enquire <svg class="ic"><use href="#i-arrow"/></svg></a></div>
+      </article>
+      <article class="svc">
+        <div class="photo"><img loading="lazy" src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=700&q=75" alt="Shoulder rehabilitation exercise" width="700" height="440"></div>
+        <div class="svc-body"><span class="ico"><svg class="ic"><use href="#i-shoulder"/></svg></span>
+          <h3>Shoulder Rehabilitation</h3><p>Rebuild comfortable reach, lifting and rotation after pain, stiffness or injury.</p>
+          <a class="more" href="#appointment" data-service="Shoulder Rehabilitation">Enquire <svg class="ic"><use href="#i-arrow"/></svg></a></div>
+      </article>
+      <article class="svc">
+        <div class="photo"><img loading="lazy" src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=700&q=75" alt="Knee strengthening and rehabilitation exercise" width="700" height="440"></div>
+        <div class="svc-body"><span class="ico"><svg class="ic"><use href="#i-knee"/></svg></span>
+          <h3>Knee Rehabilitation</h3><p>Gradual strengthening and movement training to help you walk, climb stairs and stay active with confidence.</p>
+          <a class="more" href="#appointment" data-service="Knee Rehabilitation">Enquire <svg class="ic"><use href="#i-arrow"/></svg></a></div>
+      </article>
+      <article class="svc">
+        <div class="photo"><img loading="lazy" src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=700&q=75" alt="Mobility training and stretching exercises" width="700" height="440"></div>
+        <div class="svc-body"><span class="ico"><svg class="ic"><use href="#i-move"/></svg></span>
+          <h3>Mobility Restoration</h3><p>Stretching and joint-friendly movement work to loosen stiffness and bring back your range of motion.</p>
+          <a class="more" href="#appointment" data-service="Mobility Restoration">Enquire <svg class="ic"><use href="#i-arrow"/></svg></a></div>
+      </article>
+      <article class="svc">
+        <div class="photo"><img loading="lazy" src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=700&q=75" alt="Functional strengthening exercises with weights" width="700" height="440"></div>
+        <div class="svc-body"><span class="ico"><svg class="ic"><use href="#i-dumbbell"/></svg></span>
+          <h3>Functional Strengthening</h3><p>Build strength for real-life tasks like lifting, bending and walking, so recovery carries over into daily life.</p>
+          <a class="more" href="#appointment" data-service="Functional Strengthening">Enquire <svg class="ic"><use href="#i-arrow"/></svg></a></div>
+      </article>
+      <article class="svc wide">
+        <div class="photo"><img loading="lazy" src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=900&q=75" alt="Physiotherapy consultation and assessment" width="900" height="600"></div>
+        <div class="svc-body"><span class="ico"><svg class="ic"><use href="#i-chat"/></svg></span>
+          <h3>General Physiotherapy Consultation</h3><p>Not sure what you need? Talk through your symptoms and goals in a consultation, and get guidance on the right next step. Rehabilitation support is available to help you stay on track.</p>
+          <div><a class="btn btn-teal btn-sm" href="#appointment" data-service="General Physiotherapy Consultation">Book a Consultation</a></div></div>
+      </article>
+    </div>
+    <p class="note"><svg class="ic"><use href="#i-info"/></svg><span>Services shown are general areas of physiotherapy care. Please confirm the exact services available and suitability for your condition with the clinic.</span></p>
+  </div>
+</section>
+
+<!-- WHY -->
+<section id="why">
+  <div class="wrap why-grid">
+    <div>
+      <h2>Why patients choose Garishtha</h2>
+      <p style="color:var(--ink-soft)">Good physiotherapy feels clear and personal. Here is what to expect when you get in touch.</p>
+      <div class="why-list">
+        <div class="why-item"><span class="ico"><svg class="ic"><use href="#i-user"/></svg></span><div><h3>Focus on individual patient needs</h3><p>Your condition, routine and goals shape the approach.</p></div></div>
+        <div class="why-item"><span class="ico"><svg class="ic"><use href="#i-heart"/></svg></span><div><h3>Patient-friendly approach</h3><p>Questions are welcome and explanations stay simple.</p></div></div>
+        <div class="why-item"><span class="ico"><svg class="ic"><use href="#i-move"/></svg></span><div><h3>Mobility and functional improvement</h3><p>The aim is easier movement in the things you do every day.</p></div></div>
+        <div class="why-item"><span class="ico"><svg class="ic"><use href="#i-pin"/></svg></span><div><h3>Convenient clinic location</h3><p>Easy to find at Shahu Maharaj Chowk, near Reliance Digital Mall.</p></div></div>
+        <div class="why-item"><span class="ico"><svg class="ic fill"><use href="#i-wa"/></svg></span><div><h3>Easy enquiries on WhatsApp</h3><p>Send your details in a minute and the clinic replies to confirm.</p></div></div>
+      </div>
+    </div>
+    <div class="why-media">
+      <div class="photo"><img loading="lazy" src="https://images.unsplash.com/photo-1600881333168-2ef49b341f30?auto=format&fit=crop&w=800&q=75" alt="Calm physiotherapy treatment room with a therapist and patient" width="800" height="1000"></div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="reviews" id="reviews">
+  <div class="wrap rev-box">
+    <div class="rev-score">
+      <strong>5.0</strong>
+      <div class="stars" aria-label="5 out of 5 stars"><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg></div>
+      <div>82 Google reviews</div>
+    </div>
+    <div class="rev-txt">
+      <h2>Rated 5.0 by patients on Google</h2>
+      <p>Read what patients have shared about their experience at the clinic, in their own words, on Google.</p>
+      <a class="btn btn-line" id="reviewsLink" href="https://www.google.com/search?q=Garishtha+Physiotherapy+Clinic+Miraj+reviews" target="_blank" rel="noopener noreferrer">View Google Reviews <svg class="ic"><use href="#i-arrow"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- APPOINTMENT -->
+<section id="appointment">
+  <div class="wrap appt-grid">
+    <div class="appt-info">
+      <h2>Request an appointment on WhatsApp</h2>
+      <p>Fill in a few details and we will open WhatsApp with your message ready to send to the clinic.</p>
+      <ol class="steps">
+        <li><span>Fill in the short form.</span></li>
+        <li><span>Tap the button to open WhatsApp.</span></li>
+        <li><span>Send the message. The clinic will reply to confirm availability.</span></li>
+      </ol>
+      <p style="margin:0">Prefer to talk? <a href="tel:+918408060525" style="font-weight:700;color:var(--teal-dark)">Call +91 84080 60525</a></p>
+    </div>
+    <div class="form-card">
+      <form id="enquiry" novalidate>
+        <div class="field"><label for="pname">Patient name <span aria-hidden="true">*</span></label>
+          <input id="pname" name="name" type="text" autocomplete="name" required placeholder="Your full name"><div class="err" role="alert">Please enter the patient's name.</div></div>
+        <div class="two">
+          <div class="field"><label for="pphone">Phone number <span aria-hidden="true">*</span></label>
+            <input id="pphone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required placeholder="10-digit mobile number"><div class="err" role="alert">Enter a valid 10-digit phone number.</div></div>
+          <div class="field"><label for="pdate">Preferred date</label>
+            <input id="pdate" name="date" type="date"></div>
+        </div>
+        <div class="field"><label for="pservice">Required service <span aria-hidden="true">*</span></label>
+          <select id="pservice" name="service" required>
+            <option value="">Select a service</option>
+            <option>Pain Management</option>
+            <option>Back and Neck Pain Physiotherapy</option>
+            <option>Shoulder Rehabilitation</option>
+            <option>Knee Rehabilitation</option>
+            <option>Mobility Restoration</option>
+            <option>Functional Strengthening</option>
+            <option>General Physiotherapy Consultation</option>
+          </select><div class="err" role="alert">Please choose a service.</div></div>
+        <div class="field"><label for="pmsg">Message</label>
+          <textarea id="pmsg" name="message" placeholder="Briefly describe your problem or any questions"></textarea></div>
+        <button class="btn btn-wa" type="submit"><svg class="ic fill"><use href="#i-wa"/></svg>Send Enquiry on WhatsApp</button>
+        <p class="disclaimer"><svg class="ic"><use href="#i-info"/></svg><span>This sends an enquiry only. It is not a confirmed booking. The clinic will reply on WhatsApp to confirm availability.</span></p>
+        <div class="sent" id="sent" role="status">WhatsApp should now be open with your message. If it did not open, <a id="manualWa" href="#" target="_blank" rel="noopener noreferrer" style="font-weight:700">tap here to send it</a>.</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- LOCATION + CONTACT -->
+<section class="loc" id="contact">
+  <div class="wrap">
+    <div class="sec-head"><h2>Visit the clinic in Miraj</h2></div>
+    <div class="loc-grid">
+      <div class="loc-card">
+        <h3>Garishtha Physiotherapy Clinic</h3>
+        <ul class="contact-list">
+          <li><span class="ico"><svg class="ic"><use href="#i-pin"/></svg></span><div><b>Address</b>Shop 7–8, Shahu Maharaj Chowk, Near Reliance Digital Mall, Shivaji Nagar, Miraj – 416410, Maharashtra, India</div></li>
+          <li><span class="ico"><svg class="ic"><use href="#i-phone"/></svg></span><div><b>Phone</b><a href="tel:+918408060525">+91 84080 60525</a></div></li>
+          <li><span class="ico"><svg class="ic"><use href="#i-cal"/></svg></span><div><b>Clinic timings</b>Contact the clinic for current timings.</div></li>
+        </ul>
+        <div class="btn-row">
+          <a class="btn btn-teal" id="directions" target="_blank" rel="noopener noreferrer" href="#"><svg class="ic"><use href="#i-nav"/></svg>Get Directions</a>
+          <a class="btn btn-wa" data-wa-open href="#appointment"><svg class="ic fill"><use href="#i-wa"/></svg>WhatsApp Contact</a>
+          <a class="btn btn-line" href="tel:+918408060525"><svg class="ic"><use href="#i-phone"/></svg>Call</a>
+        </div>
+      </div>
+      <div class="map">
+        <iframe id="mapFrame" title="Map showing Garishtha Physiotherapy Clinic, Shivaji Nagar, Miraj" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src=""></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="brand" href="#home"><span class="brand-mark"><svg class="ic" style="width:24px;height:24px"><use href="#i-activity"/></svg></span>
+          <span class="brand-text">Garishtha<small>Physiotherapy Clinic, Miraj</small></span></a>
+        <p style="margin-top:1rem">Personalized physiotherapy focused on pain relief, mobility and rehabilitation.</p>
+      </div>
+      <div><h3>Quick links</h3><ul>
+        <li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#services">Services</a></li>
+        <li><a href="#why">Why Choose Us</a></li><li><a href="#reviews">Reviews</a></li><li><a href="#contact">Contact</a></li></ul></div>
+      <div><h3>Services</h3><ul>
+        <li><a href="#services">Pain Management</a></li><li><a href="#services">Back &amp; Neck Pain</a></li><li><a href="#services">Shoulder Rehabilitation</a></li>
+        <li><a href="#services">Knee Rehabilitation</a></li><li><a href="#services">Mobility &amp; Strength</a></li><li><a href="#services">Consultation</a></li></ul></div>
+      <div><h3>Contact</h3><ul>
+        <li><a href="tel:+918408060525">+91 84080 60525</a></li>
+        <li>Shop 7–8, Shahu Maharaj Chowk, Near Reliance Digital Mall, Shivaji Nagar, Miraj – 416410</li>
+        <li><a data-wa-open href="#appointment">WhatsApp enquiry</a></li></ul></div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span id="yr">2026</span> Garishtha Physiotherapy Clinic. All rights reserved.</span>
+      <span>Demo website designed by <a href="https://wa.me/918857015469" target="_blank" rel="noopener noreferrer">Himanshu Bakre</a></span>
+    </div>
+  </div>
+</footer>
+
+<a class="fab" data-wa-open href="#appointment" aria-label="Chat with the clinic on WhatsApp"><svg class="ic fill"><use href="#i-wa"/></svg></a>
+<div class="mbar">
+  <a class="btn btn-wa" href="#appointment"><svg class="ic fill"><use href="#i-wa"/></svg>Book Appointment</a>
+  <a class="btn btn-line" href="tel:+918408060525"><svg class="ic"><use href="#i-phone"/></svg>Call Now</a>
+</div>
+
+<script>
+(function(){
+  'use strict';
+  var WA_NUMBER = '918408060525';
+  var ADDRESS = 'Garishtha Physiotherapy Clinic, Shop 7-8, Shahu Maharaj Chowk, Near Reliance Digital Mall, Shivaji Nagar, Miraj, Maharashtra 416410';
+  var $ = function(s,c){return (c||document).querySelector(s)};
+  var $$ = function(s,c){return Array.prototype.slice.call((c||document).querySelectorAll(s))};
+
+  /* mobile menu */
+  var burger = $('#burger'), menu = $('#menu');
+  function closeMenu(){menu.classList.remove('open');burger.setAttribute('aria-expanded','false')}
+  burger.addEventListener('click',function(){
+    var open = menu.classList.toggle('open');
+    burger.setAttribute('aria-expanded',String(open));
+  });
+  $$('#menu a').forEach(function(a){a.addEventListener('click',closeMenu)});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu()});
+  document.addEventListener('click',function(e){if(!e.target.closest('header'))closeMenu()});
+
+  /* active link on scroll */
+  var links = $$('#menu a[href^="#"]:not(.btn)');
+  var targets = links.map(function(a){return $(a.getAttribute('href'))}).filter(Boolean);
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){
+          links.forEach(function(l){l.classList.toggle('active',l.getAttribute('href')==='#'+en.target.id)});
+        }
+      });
+    },{rootMargin:'-45% 0px -50% 0px'});
+    targets.forEach(function(t){io.observe(t)});
+  }
+
+  /* image fallbacks */
+  $$('.photo img').forEach(function(img){
+    function fail(){img.closest('.photo').classList.add('fallback')}
+    img.addEventListener('error',fail);
+    if(img.complete && img.naturalWidth===0 && img.getAttribute('src')) fail();
+  });
+
+  /* map + directions (built from the address text, no invented coordinates) */
+  $('#mapFrame').src = 'https://maps.google.com/maps?q='+encodeURIComponent(ADDRESS)+'&output=embed';
+  $('#directions').href = 'https://www.google.com/maps/dir/?api=1&destination='+encodeURIComponent(ADDRESS);
+
+  /* year */
+  $('#yr').textContent = new Date().getFullYear();
+
+  /* date: today onwards */
+  var dateEl = $('#pdate');
+  var t = new Date(); t.setMinutes(t.getMinutes()-t.getTimezoneOffset());
+  dateEl.min = t.toISOString().slice(0,10);
+
+  /* service shortcut from cards */
+  $$('[data-service]').forEach(function(a){
+    a.addEventListener('click',function(){$('#pservice').value=a.getAttribute('data-service')});
+  });
+
+  /* general WhatsApp buttons: go to the form so the enquiry is complete */
+  $$('[data-wa-open]').forEach(function(a){
+    a.addEventListener('click',function(e){
+      e.preventDefault();
+      closeMenu();
+      var f=$('#appointment');
+      f.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});
+      setTimeout(function(){$('#pname').focus({preventScroll:true})},500);
+    });
+  });
+
+  /* form */
+  var form = $('#enquiry');
+  function setInvalid(el,bad){el.closest('.field').classList.toggle('invalid',bad);el.setAttribute('aria-invalid',bad?'true':'false')}
+  function validPhone(v){var d=v.replace(/[\s\-()]/g,'').replace(/^\+?91/,'').replace(/^0/,'');return /^[6-9]\d{9}$/.test(d)}
+  ['pname','pphone','pservice'].forEach(function(id){
+    $('#'+id).addEventListener('input',function(){this.closest('.field').classList.remove('invalid')});
+  });
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    var n=$('#pname'),p=$('#pphone'),s=$('#pservice'),d=$('#pdate'),m=$('#pmsg');
+    var okN=n.value.trim().length>=2, okP=validPhone(p.value), okS=s.value!=='';
+    setInvalid(n,!okN);setInvalid(p,!okP);setInvalid(s,!okS);
+    if(!(okN&&okP&&okS)){(!okN?n:!okP?p:s).focus();return}
+    var dateTxt='';
+    if(d.value){var parts=d.value.split('-');dateTxt=parts[2]+'/'+parts[1]+'/'+parts[0]}
+    var lines=[
+      'Hello Garishtha Physiotherapy Clinic, I would like to enquire about an appointment.',
+      '',
+      'Name: '+n.value.trim(),
+      'Phone: '+p.value.trim(),
+      'Service: '+s.value,
+      'Preferred date: '+(dateTxt||'Flexible')
+    ];
+    if(m.value.trim()) lines.push('Message: '+m.value.trim());
+    lines.push('','Please let me know the available timings. Thank you.');
+    var url='https://wa.me/'+WA_NUMBER+'?text='+encodeURIComponent(lines.join('\n'));
+    var manual=$('#manualWa');manual.href=url;
+    $('#sent').style.display='block';
+    var w=window.open(url,'_blank','noopener');
+    if(!w){window.location.href=url}
+  });
+})();
+</script>
+</body>
+</html>
